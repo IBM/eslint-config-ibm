@@ -1,6 +1,6 @@
 {
   "name": "ibm-eslint-config",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ESLint configuration for the IBM coding style.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,6 +19,7 @@
     "config",
     "es6",
     "eslint",
+    "eslintconfig",
     "eslint config",
     "guide",
     "lint",
@@ -35,5 +36,8 @@
   "homepage": "https://github.com/IBM/eslint-config-ibm",
   "devDependencies": {
     "eslint": "^6.8.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=6.8.0"
   }
 }
