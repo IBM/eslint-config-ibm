@@ -11,6 +11,8 @@ module.exports = {
      * https://eslint.org/docs/rules/#possible-errors
      */
     'for-direction': 'error',
+    'getter-return': 'error',
+    'no-async-promise-executor': 'error',
     /**
      * Stylistic Issues
      * https://eslint.org/docs/rules/#stylistic-issues
