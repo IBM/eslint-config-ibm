@@ -64,6 +64,11 @@ module.exports = {
     'default-param-last': 'error',
     'dot-location': ['error', 'property'],
     /**
+     * Strict Mode
+     * https://eslint.org/docs/rules/#strict-mode
+     */
+    'strict': 'off',
+    /**
      * Stylistic Issues
      * https://eslint.org/docs/rules/#stylistic-issues
      */
