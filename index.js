@@ -43,6 +43,12 @@ module.exports = {
     'no-sparse-arrays': 'error',
     'no-template-curly-in-string': 'off',
     'no-unexpected-multiline': 'error',
+    'no-unreachable': 'error',
+    'no-unsafe-finally': 'error',
+    'no-unsafe-negation': 'error',
+    'require-atomic-updates': 'warn',
+    'use-isnan': 'error',
+    'valid-typeof': ['error', { requireStringLiterals: true }],
     /**
      * Stylistic Issues
      * https://eslint.org/docs/rules/#stylistic-issues
