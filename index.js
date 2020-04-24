@@ -34,6 +34,15 @@ module.exports = {
     'no-import-assign': 'error',
     'no-inner-declarations': 'error',
     'no-invalid-regexp': 'error',
+    'no-irregular-whitespace': 'error',
+    'no-misleading-character-class': 'error',
+    'no-obj-calls': 'error',
+    'no-prototype-builtins': 'error',
+    'no-regex-spaces': 'error',
+    'no-setter-return': 'error',
+    'no-sparse-arrays': 'error',
+    'no-template-curly-in-string': 'off',
+    'no-unexpected-multiline': 'error',
     /**
      * Stylistic Issues
      * https://eslint.org/docs/rules/#stylistic-issues
