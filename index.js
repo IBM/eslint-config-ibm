@@ -69,6 +69,21 @@ module.exports = {
      */
     'strict': 'off',
     /**
+     * Variables
+     * https://eslint.org/docs/rules/#variables
+     */
+    'init-declarations': 'off',
+    'no-delete-var': 'error',
+    'no-label-var': 'error',
+    'no-restricted-globals': 'off',
+    'no-shadow': 'warn',
+    'no-shadow-restricted-names': 'error',
+    'no-undef': 'error',
+    'no-undef-init': 'off',
+    'no-undefined': 'off',
+    'no-unused-vars': 'error',
+    'no-use-before-define': 'warn',
+    /**
      * Stylistic Issues
      * https://eslint.org/docs/rules/#stylistic-issues
      */
