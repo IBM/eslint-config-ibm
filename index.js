@@ -87,6 +87,11 @@ module.exports = {
      * Stylistic Issues
      * https://eslint.org/docs/rules/#stylistic-issues
      */
+    'array-bracket-newline': ['error', 'consistent'],
+    'array-bracket-spacing': 'error',
+    'array-element-newline': ['error', 'consistent'],
+    'block-spacing': ['error', 'never'],
+    'brace-style': 'error',
     'quotes': ['error', 'single', { allowTemplateLiterals: true }],
   },
 };
