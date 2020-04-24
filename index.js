@@ -50,6 +50,15 @@ module.exports = {
     'use-isnan': 'error',
     'valid-typeof': ['error', { requireStringLiterals: true }],
     /**
+     * Best Practices
+     * https://eslint.org/docs/rules/#best-practices
+     */
+    'accessor-pairs': 'warn',
+    'array-callback-return': 'warn',
+    'block-scoped-var': 'off',
+    'class-methods-use-this': 'off',
+    'complexity': ['warn', { max: 20 }],
+    /**
      * Stylistic Issues
      * https://eslint.org/docs/rules/#stylistic-issues
      */
