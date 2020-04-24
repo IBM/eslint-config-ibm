@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-ibm",
+  "version": "0.1.0",
+  "description": "ESLint configuration for the IBM coding style.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IBM/eslint-config-ibm.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "ibm",
+    "code",
+    "code quality",
+    "es6",
+    "eslint",
+    "guide",
+    "lint",
+    "linter",
+    "quality",
+    "style",
+    "style guide"
+  ],
+  "author": "Eddybrando Vásquez <eddybrando@ibm.com> (https://eddybrando.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/IBM/eslint-config-ibm/issues"
+  },
+  "homepage": "https://github.com/IBM/eslint-config-ibm"
+}
