@@ -92,6 +92,11 @@ module.exports = {
     'array-element-newline': ['error', 'consistent'],
     'block-spacing': ['error', 'never'],
     'brace-style': 'error',
+    'camelcase': 'error',
+    'capitalized-comments': 'off',
+    'comma-dangle': ['error', 'always-multiline'],
+    'comma-spacing': 'error',
+    'comma-style': 'error',
     'quotes': ['error', 'single', { allowTemplateLiterals: true }],
   },
 };
