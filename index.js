@@ -10,7 +10,7 @@ module.exports = {
      * Possible Errors
      * https://eslint.org/docs/rules/#possible-errors
      */
-    'for-direction': 'off',
+    'for-direction': 'error',
     /**
      * Stylistic Issues
      * https://eslint.org/docs/rules/#stylistic-issues
