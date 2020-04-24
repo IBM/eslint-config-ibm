@@ -1,2 +1,2 @@
 # ibm-eslint-config
-ESLint configuration for JavaScript projects.
+ESLint configuration for the IBM coding style.
