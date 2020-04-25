@@ -50,7 +50,7 @@ module.exports = {
     'no-unsafe-negation': 'error',
     'require-atomic-updates': 'warn',
     'use-isnan': 'error',
-    'valid-typeof': ['error', { requireStringLiterals: true }],
+    'valid-typeof': ['error', {requireStringLiterals: true}],
 
     /**
      * Best Practices
@@ -60,7 +60,7 @@ module.exports = {
     'array-callback-return': 'warn',
     'block-scoped-var': 'off',
     'class-methods-use-this': 'off',
-    'complexity': ['warn', { max: 20 }],
+    'complexity': ['warn', {max: 20}],
     'consistent-return': 'warn',
     'curly': ['error', 'multi-line', 'consistent'],
     'default-case': 'warn',
@@ -162,8 +162,8 @@ module.exports = {
     'no-unneeded-ternary': 'off',
     'no-whitespace-before-property': 'error',
     'nonblock-statement-body-position': 'off',
-    'object-curly-newline': ['error', {  consistent: true }],
-    'object-curly-spacing': ["error", "never"],
-    'quotes': ['error', 'single', { allowTemplateLiterals: true }],
+    'object-curly-newline': ['error', {consistent: true}],
+    'object-curly-spacing': ['error', 'never'],
+    'quotes': ['error', 'single', {allowTemplateLiterals: true}],
   },
 };
