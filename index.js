@@ -187,5 +187,12 @@ module.exports = {
       'named': 'never',
     }],
     'space-in-parens': ['error', 'never'],
+    'space-infix-ops': 'off',
+    'space-unary-ops': 'off',
+    'spaced-comment': ['error', 'always'],
+    'switch-colon-spacing': ['error', {'after': true, 'before': false}],
+    'template-tag-spacing': 'off',
+    'unicode-bom': 'off',
+    'wrap-regex': 'off',
   },
 };
