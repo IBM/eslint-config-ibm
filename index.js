@@ -97,6 +97,13 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'comma-spacing': 'error',
     'comma-style': 'error',
+    'computed-property-spacing': 'error',
+    'consistent-this': 'off',
+    'eol-last': 'warn',
+    'func-call-spacing': 'error',
+    'func-name-matching': 'off',
+    'func-names': 'off',
+    'func-style': 'off',
     'quotes': ['error', 'single', { allowTemplateLiterals: true }],
   },
 };
