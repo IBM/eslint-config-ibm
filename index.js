@@ -113,6 +113,11 @@ module.exports = {
     'indent': ['error', 2],
     'jsx-quotes': 'error',
     'key-spacing': 'error',
+    'keyword-spacing': 'error',
+    'line-comment-position': 'off',
+    'linebreak-style': 'error',
+    'lines-around-comment': 'error',
+    'lines-between-class-members': 'error',
     'quotes': ['error', 'single', { allowTemplateLiterals: true }],
   },
 };
