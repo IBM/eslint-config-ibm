@@ -137,7 +137,7 @@ module.exports = {
     'max-statements': 'off',
     'max-statements-per-line': 'off',
     'multiline-comment-style': 'error',
-    'multiline-ternary': ['error, always-multiline'],
+    'multiline-ternary': ['error', 'always-multiline'],
     'new-cap': 'error',
     'new-parens': 'error',
     'newline-per-chained-call': 'off',
