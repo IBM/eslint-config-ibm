@@ -1,5 +1,5 @@
 {
-  "name": "ibm-eslint-config",
+  "name": "eslint-config-ibm",
   "version": "0.8.0",
   "description": "ESLint configuration for the IBM coding style.",
   "scripts": {
