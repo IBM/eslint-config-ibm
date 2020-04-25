@@ -158,6 +158,12 @@ module.exports = {
     'no-tabs': 'error',
     'no-ternary': 'off',
     'no-trailing-spaces': 'error',
+    'no-underscore-dangle': 'off',
+    'no-unneeded-ternary': 'off',
+    'no-whitespace-before-property': 'error',
+    'nonblock-statement-body-position': 'off',
+    'object-curly-newline': ['error', {  consistent: true }],
+    'object-curly-spacing': ["error", "never"],
     'quotes': ['error', 'single', { allowTemplateLiterals: true }],
   },
 };
