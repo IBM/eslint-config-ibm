@@ -1,11 +1,13 @@
 'use strict';
 
 module.exports = {
+
   /**
    * All rules as listed in the ESLint rules page:
    * https://eslint.org/docs/rules/.
    */
   rules: {
+
     /**
      * Possible Errors
      * https://eslint.org/docs/rules/#possible-errors
@@ -49,6 +51,7 @@ module.exports = {
     'require-atomic-updates': 'warn',
     'use-isnan': 'error',
     'valid-typeof': ['error', { requireStringLiterals: true }],
+
     /**
      * Best Practices
      * https://eslint.org/docs/rules/#best-practices
@@ -63,11 +66,13 @@ module.exports = {
     'default-case': 'warn',
     'default-param-last': 'error',
     'dot-location': ['error', 'property'],
+
     /**
      * Strict Mode
      * https://eslint.org/docs/rules/#strict-mode
      */
     'strict': 'off',
+
     /**
      * Variables
      * https://eslint.org/docs/rules/#variables
@@ -83,6 +88,7 @@ module.exports = {
     'no-undefined': 'off',
     'no-unused-vars': 'error',
     'no-use-before-define': 'warn',
+
     /**
      * Stylistic Issues
      * https://eslint.org/docs/rules/#stylistic-issues
@@ -118,6 +124,20 @@ module.exports = {
     'linebreak-style': 'error',
     'lines-around-comment': 'error',
     'lines-between-class-members': 'error',
+    'max-depth': 'off',
+    'max-len': ['error', {
+      code: 80,
+      tabWidth: 2,
+      ignoreUrls: true,
+    }],
+    'max-lines': 'off',
+    'max-lines-per-function': 'off',
+    'max-nested-callbacks': 'off',
+    'max-params': 'off',
+    'max-statements': 'off',
+    'max-statements-per-line': 'off',
+    'multiline-comment-style': 'error',
+    'multiline-ternary': ['error, always-multiline'],
     'quotes': ['error', 'single', { allowTemplateLiterals: true }],
   },
 };
