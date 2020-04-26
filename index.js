@@ -84,6 +84,13 @@ module.exports = {
     'no-extend-native': 'error',
     'no-extra-bind': 'error',
     'no-extra-label': 'off',
+    'no-fallthrough': 'error',
+    'no-floating-decimal': 'error',
+    'no-global-assign': 'error',
+    'no-implicit-coercion': 'off',
+    'no-implicit-globals': 'off',
+    'no-implied-eval': 'off',
+    'no-invalid-this': 'error',
 
     /**
      * Strict Mode
