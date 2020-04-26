@@ -282,5 +282,17 @@ module.exports = {
     'no-new-symbol': 'error',
     'no-restricted-imports': 'off',
     'no-this-before-super': 'error',
+    'no-useless-computed-key': 'error',
+    'no-useless-constructor': 'error',
+    'no-useless-rename': 'error',
+    'no-var': 'error',
+    'object-shorthand': 'off',
+    'prefer-arrow-callback': 'off',
+    'prefer-const': ['error', {
+      'destructuring': 'any',
+      'ignoreReadBeforeAssign': false,
+    }],
+    'prefer-destructuring': 'off',
+    'prefer-numeric-literals': 'off',
   },
 };
