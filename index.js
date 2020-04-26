@@ -1,5 +1,7 @@
 'use strict';
 
+/* eslint-disable no-magic-numbers */
+
 module.exports = {
 
   /**
@@ -122,6 +124,18 @@ module.exports = {
     'no-useless-concat': 'off',
     'no-useless-escape': 'error',
     'no-useless-return': 'error',
+    'no-void': 'off',
+    'no-warning-comments': 'off',
+    'no-with': 'error',
+    'prefer-named-capture-group': 'error',
+    'prefer-promise-reject-errors': 'error',
+    'prefer-regex-literals': 'off',
+    'radix': 'error',
+    'require-await': 'error',
+    'require-unicode-regexp': 'off',
+    'vars-on-top': 'error',
+    'wrap-iife': 'off',
+    'yoda': 'off',
 
     /**
      * Strict Mode
