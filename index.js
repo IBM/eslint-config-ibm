@@ -98,6 +98,13 @@ module.exports = {
     'no-magic-numbers': 'warn',
     'no-multi-spaces': ['error', {'ignoreEOLComments': false}],
     'no-multi-str': 'error',
+    'no-new': 'error',
+    'no-new-func': 'error',
+    'no-new-wrappers': 'error',
+    'no-octal': 'error',
+    'no-octal-escape': 'error',
+    'no-param-reassign': 'off',
+    'no-proto': 'error',
 
     /**
      * Strict Mode
