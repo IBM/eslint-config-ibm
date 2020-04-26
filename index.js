@@ -264,5 +264,23 @@ module.exports = {
     'template-tag-spacing': 'off',
     'unicode-bom': 'off',
     'wrap-regex': 'off',
+
+    /**
+     * ECMAScript 6
+     * https://eslint.org/docs/rules/#ecmascript-6
+     */
+    'arrow-body-style': 'off',
+    'arrow-parens': ['error', 'always'],
+    'arrow-spacing': ['error', {'before': true, 'after': true}],
+    'constructor-super': 'error',
+    'generator-star-spacing': ['error', {'before': false, 'after': true}],
+    'no-class-assign': 'error',
+    'no-confusing-arrow': 'off',
+    'no-const-assign': 'error',
+    'no-dupe-class-members': 'error',
+    'no-duplicate-imports': 'error',
+    'no-new-symbol': 'error',
+    'no-restricted-imports': 'off',
+    'no-this-before-super': 'error',
   },
 };
