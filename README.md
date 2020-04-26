@@ -1,6 +1,9 @@
 # eslint-config-ibm
 ESLint configuration for the IBM coding style.
 
+[![NPM version](https://img.shields.io/npm/v/eslint-config-ibm.svg)](https://www.npmjs.com/package/eslint-config-ibm)
+[![Downloads](https://img.shields.io/npm/dm/eslint-config-ibm.svg)](https://www.npmjs.com/package/eslint-config-ibm)
+
 ## Installation
 
 ```
