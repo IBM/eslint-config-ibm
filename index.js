@@ -75,6 +75,15 @@ module.exports = {
     'no-caller': 'error',
     'no-case-declarations': 'error',
     'no-constructor-return': 'error',
+    'no-div-regex': 'off',
+    'no-else-return': ['error', {'allowElseIf': true}],
+    'no-empty-function': 'off',
+    'no-empty-pattern': 'error',
+    'no-eq-null': 'off',
+    'no-eval': 'off',
+    'no-extend-native': 'error',
+    'no-extra-bind': 'error',
+    'no-extra-label': 'off',
 
     /**
      * Strict Mode
