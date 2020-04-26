@@ -66,6 +66,15 @@ module.exports = {
     'default-case': 'warn',
     'default-param-last': 'error',
     'dot-location': ['error', 'property'],
+    'dot-notation': 'off',
+    'eqeqeq': 'off',
+    'grouped-accessor-pairs': 'off',
+    'guard-for-in': 'error',
+    'max-classes-per-file': 'off',
+    'no-alert': 'off',
+    'no-caller': 'error',
+    'no-case-declarations': 'error',
+    'no-constructor-return': 'error',
 
     /**
      * Strict Mode
