@@ -105,6 +105,23 @@ module.exports = {
     'no-octal-escape': 'error',
     'no-param-reassign': 'off',
     'no-proto': 'error',
+    'no-redeclare': ['error', {'builtinGlobals': true}],
+    'no-restricted-properties': 'off',
+    'no-return-assign': 'off',
+    'no-return-await': 'off',
+    'no-script-url': 'off',
+    'no-self-assign': ['error', {'props': true}],
+    'no-self-compare': 'error',
+    'no-sequences': 'off',
+    'no-throw-literal': 'error',
+    'no-unmodified-loop-condition': 'off',
+    'no-unused-expressions': 'off',
+    'no-unused-labels': 'error',
+    'no-useless-call': 'off',
+    'no-useless-catch': 'error',
+    'no-useless-concat': 'off',
+    'no-useless-escape': 'error',
+    'no-useless-return': 'error',
 
     /**
      * Strict Mode
