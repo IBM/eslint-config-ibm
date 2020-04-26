@@ -4,6 +4,14 @@ ESLint configuration for the IBM coding style.
 [![NPM version](https://img.shields.io/npm/v/eslint-config-ibm.svg)](https://www.npmjs.com/package/eslint-config-ibm)
 [![Downloads](https://img.shields.io/npm/dm/eslint-config-ibm.svg)](https://www.npmjs.com/package/eslint-config-ibm)
 
+## ESLint version support
+
+The following table shows the ESLint versions supported by the various versions of this package:
+
+| ESLint version | eslint-config-ibm |
+| -------------- | ----------------- |
+| 6.8            | 1.4               |
+
 ## Installation
 
 ```
