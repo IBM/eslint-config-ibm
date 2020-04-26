@@ -91,6 +91,13 @@ module.exports = {
     'no-implicit-globals': 'off',
     'no-implied-eval': 'off',
     'no-invalid-this': 'error',
+    'no-iterator': 'error',
+    'no-labels': 'off',
+    'no-lone-blocks': 'off',
+    'no-loop-func': 'off',
+    'no-magic-numbers': 'warn',
+    'no-multi-spaces': ['error', {'ignoreEOLComments': false}],
+    'no-multi-str': 'error',
 
     /**
      * Strict Mode
