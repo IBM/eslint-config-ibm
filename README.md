@@ -14,7 +14,7 @@ The following table shows the ESLint versions supported by the various versions 
 
 ## Installation
 
-```
+```bash
 $ npm install eslint eslint-config-ibm --save-dev
 ```
 
@@ -22,7 +22,7 @@ $ npm install eslint eslint-config-ibm --save-dev
 
 Add `ibm` to the `extends` section in your ESLint configuration file:
 
-```
+```javascript
 {
   'extends': 'ibm',
 }
