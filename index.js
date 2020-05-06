@@ -278,7 +278,7 @@ module.exports = {
     'sort-vars': 'off',
     'space-before-blocks': ['error', 'always'],
     'space-before-function-paren': ['error', {
-      'anonymous': 'never',
+      'anonymous': 'always',
       'asyncArrow': 'always',
       'named': 'never',
     }],
