@@ -97,7 +97,12 @@ module.exports = {
     'no-labels': 'off',
     'no-lone-blocks': 'off',
     'no-loop-func': 'off',
-    'no-magic-numbers': 'warn',
+    'no-magic-numbers': ['warn', {
+      'detectObjects': false,
+      'enforceConst': false,
+      'ignore': [0, 1],
+      'ignoreArrayIndexes': true,
+    }],
     'no-multi-spaces': ['error', {'ignoreEOLComments': false}],
     'no-multi-str': 'error',
     'no-new': 'error',
