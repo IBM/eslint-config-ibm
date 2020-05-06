@@ -181,7 +181,7 @@ module.exports = {
     'func-names': 'off',
     'func-style': 'off',
     'function-call-argument-newline': 'off',
-    'function-paren-newline': ['error', 'consistent'],
+    'function-paren-newline': 'off',
     'id-blacklist': 'off',
     'id-length': 'off',
     'id-match': 'off',
