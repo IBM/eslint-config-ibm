@@ -186,7 +186,9 @@ module.exports = {
     'id-length': 'off',
     'id-match': 'off',
     'implicit-arrow-linebreak': 'off',
-    'indent': ['error', 2],
+    'indent': ['error', 2, {
+      'SwitchCase': 1,
+    }],
     'jsx-quotes': 'error',
     'key-spacing': 'error',
     'keyword-spacing': 'error',
