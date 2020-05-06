@@ -244,7 +244,12 @@ module.exports = {
     'one-var': ['error', 'never'],
     'one-var-declaration-per-line': 'off',
     'operator-assignment': 'off',
-    'operator-linebreak': ['error', 'before'],
+    'operator-linebreak': ['error', 'after', {
+      'overrides': {
+        '?': 'before',
+        ':': 'before',
+      },
+    }],
     'padded-blocks': ['error', 'never'],
     'padding-line-between-statements': 'off',
     'prefer-exponentiation-operator': 'off',
