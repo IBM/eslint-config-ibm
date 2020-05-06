@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ibm",
-  "version": "1.5.3",
+  "version": "1.6.0",
   "description": "ESLint configuration for the IBM coding style.",
   "scripts": {
     "lint-fix": "eslint --fix --ext .js .",
