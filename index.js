@@ -63,7 +63,7 @@ module.exports = {
     'block-scoped-var': 'off',
     'class-methods-use-this': 'off',
     'complexity': ['warn', {max: 20}],
-    'consistent-return': 'warn',
+    'consistent-return': 'off',
     'curly': ['error', 'multi-line', 'consistent'],
     'default-case': 'warn',
     'default-param-last': 'error',
