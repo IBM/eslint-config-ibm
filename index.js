@@ -1,7 +1,5 @@
 'use strict';
 
-/* eslint-disable no-magic-numbers */
-
 module.exports = {
 
   /**
@@ -97,12 +95,7 @@ module.exports = {
     'no-labels': 'off',
     'no-lone-blocks': 'off',
     'no-loop-func': 'off',
-    'no-magic-numbers': ['warn', {
-      'detectObjects': false,
-      'enforceConst': false,
-      'ignore': [0, 1],
-      'ignoreArrayIndexes': true,
-    }],
+    'no-magic-numbers': 'off',
     'no-multi-spaces': ['error', {'ignoreEOLComments': false}],
     'no-multi-str': 'error',
     'no-new': 'error',
