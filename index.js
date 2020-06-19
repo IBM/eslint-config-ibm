@@ -227,7 +227,7 @@ module.exports = {
     'max-statements-per-line': 'off',
     'multiline-comment-style': 'off',
     'multiline-ternary': ['error', 'always-multiline'],
-    'new-cap': 'error',
+    'new-cap': 'off',
     'new-parens': 'error',
     'newline-per-chained-call': 'off',
     'no-array-constructor': 'error',
