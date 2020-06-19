@@ -90,7 +90,7 @@ module.exports = {
     'no-implicit-coercion': 'off',
     'no-implicit-globals': 'off',
     'no-implied-eval': 'off',
-    'no-invalid-this': 'error',
+    'no-invalid-this': 'off',
     'no-iterator': 'error',
     'no-labels': 'off',
     'no-lone-blocks': 'off',
