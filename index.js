@@ -63,7 +63,7 @@ module.exports = {
     'complexity': ['warn', {max: 20}],
     'consistent-return': 'off',
     'curly': ['error', 'multi-line', 'consistent'],
-    'default-case': 'warn',
+    'default-case': 'off',
     'default-param-last': 'error',
     'dot-location': ['error', 'property'],
     'dot-notation': 'off',
