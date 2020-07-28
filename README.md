@@ -10,7 +10,7 @@ The following table shows the ESLint versions supported by the various versions 
 
 | ESLint version | eslint-config-ibm |
 | -------------- | ----------------- |
-| 6.8            | 1.4 - 1.13        |
+| 6.8            | 1.4 - 1.14        |
 
 ## Installation
 
